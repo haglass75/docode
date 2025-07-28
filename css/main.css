@@ -12,3 +12,61 @@ a {
   text-decoration: none;
   color: #333;
 }
+/* 공통영역 */
+.inner {
+  position: relative;
+  width: 1180px;
+  margin: auto;
+  background-color: rgb(255, 172, 172);
+}
+/* 전체레이아웃 */
+/* 상단 */
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+header .inner {
+  height: 120px;
+}
+/* 상단위 */
+.header-top{
+    height: 60px;
+}
+.util{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 20px;
+}
+.util > li > a{
+    font: 13px/1 "arial";
+}
+/* 상단아래 */
+.header-bt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.gnb{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+     width: 800px;
+}
+.gnb > li{
+ width: calc(100% / 5);
+}
+.gnb > li > a {
+    /* width: 100%; */
+    line-height:60px;
+    display: block;
+   
+}
+.gnb > li > a:hover{
+    background-color: #333;
+    color: #fff;
+}
+/* 비주얼 */
+/* 뉴스 */
+/* 하단 */
